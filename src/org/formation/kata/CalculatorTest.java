@@ -71,7 +71,7 @@ public class CalculatorTest {
 
 		// GIVEN
 		// Calculator calcul = new Calculator();
-		String str = "1\n,2,3";
+		String str = "1\n2,3";
 		// WHEN
 		int result = calcul.add(str);
 		// THEN
