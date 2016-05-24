@@ -54,7 +54,7 @@ public class CalculatorTest {
 	
 	@Test
 	public void ManyNumber() {
-	// third test with 2 numbers, case :string should return the summ
+	// fourth test with many numbers, case :string should return the summ
 
 		// GIVEN
 		// Calculator calcul = new Calculator();

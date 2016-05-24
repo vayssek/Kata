@@ -7,10 +7,8 @@ public class Calculator {
 		if (str.length() == 0) {
 			number = 0;
 		}
-		if (str.length() == 1){
-			number=Integer.parseInt(str);
-		}
-		if (str.length() > 1){
+
+		if (str.length() >= 1){
 			String[] pars = str.split(",");
 			for (int i = 0; i <= pars.length - 1 ; i++) {
 				number += Integer.parseInt(pars[i]);
