@@ -36,4 +36,6 @@ public class CalculatorTest {
 		// THEN
 		assertEquals(1, result);
 	}
+	
+	
 }

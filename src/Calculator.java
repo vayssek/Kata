@@ -12,7 +12,7 @@ public class Calculator {
 			number = 0;
 		}
 		if (str.length() == 1){
-			number = 1;
+			number=Integer.parseInt(str);
 		}
 		return number;
 	}
