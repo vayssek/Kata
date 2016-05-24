@@ -64,5 +64,18 @@ public class CalculatorTest {
 		// THEN
 		assertEquals(15, result);
 	}
+	
+	@Test
+	public void TwoSeparator() {
+	// Test5 with \n
+
+		// GIVEN
+		// Calculator calcul = new Calculator();
+		String str = "1\n,2,3";
+		// WHEN
+		int result = calcul.add(str);
+		// THEN
+		assertEquals(6, result);
+	}
 
 }
