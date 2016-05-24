@@ -1,3 +1,5 @@
+import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class CalculatorTest {
@@ -10,6 +12,6 @@ public class CalculatorTest {
 		// WHEN
 		int result = calcul.add(str);
 		// THEN
-
+		assertEquals(0,result);
 	}
 }

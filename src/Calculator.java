@@ -7,7 +7,10 @@ public class Calculator {
 	}
 
 	public int add(String str) {
-		// TODO Auto-generated method stub
-		return 0;
+		int number = 0;
+		if(str.length()==0){
+		number=0;
+	}
+		return  number;
 	}
 }
