@@ -15,6 +15,7 @@ public class CalculatorTest {
 
 	@Test
 	public void EmptyString() {
+		//First test case : empty string should return 0.
 		// GIVEN
 		// Calculator calcul = new Calculator();
 		String str = "";
