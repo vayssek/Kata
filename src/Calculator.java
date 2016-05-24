@@ -8,9 +8,12 @@ public class Calculator {
 
 	public int add(String str) {
 		int number = 0;
-		if(str.length()==0){
-		number=0;
-	}
-		return  number;
+		if (str.length() == 0) {
+			number = 0;
+		}
+		if (str.length() == 1){
+			number = 1;
+		}
+		return number;
 	}
 }
