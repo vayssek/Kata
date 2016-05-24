@@ -1,8 +1,8 @@
+package org.formation.kata;
 
 public class Calculator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
@@ -13,6 +13,11 @@ public class Calculator {
 		}
 		if (str.length() == 1){
 			number=Integer.parseInt(str);
+		}
+		if (str.length() > 1){
+			for (int i = 0; i <= str.length() - 1 ; i++) {
+				number += Integer.parseInt(str);
+			}
 		}
 		return number;
 	}
