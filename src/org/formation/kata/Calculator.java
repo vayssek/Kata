@@ -2,10 +2,6 @@ package org.formation.kata;
 
 public class Calculator {
 
-	public static void main(String[] args) {
-
-	}
-
 	public int add(String str) {
 		int number = 0;
 		if (str.length() == 0) {
@@ -15,8 +11,9 @@ public class Calculator {
 			number=Integer.parseInt(str);
 		}
 		if (str.length() > 1){
-			for (int i = 0; i <= str.length() - 1 ; i++) {
-				number += Integer.parseInt(str);
+			String[] pars = str.split(",");
+			for (int i = 0; i <= pars.length - 1 ; i++) {
+				number += Integer.parseInt(pars[i]);
 			}
 		}
 		return number;
