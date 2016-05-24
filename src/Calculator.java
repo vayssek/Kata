@@ -5,4 +5,9 @@ public class Calculator {
 		// TODO Auto-generated method stub
 
 	}
+
+	public int add(String str) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
