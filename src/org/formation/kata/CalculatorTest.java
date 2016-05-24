@@ -51,5 +51,18 @@ public class CalculatorTest {
 		// THEN
 		assertEquals(3, result);
 	}
+	
+	@Test
+	public void ManyNumber() {
+	// third test with 2 numbers, case :string should return the summ
+
+		// GIVEN
+		// Calculator calcul = new Calculator();
+		String str = "1,2,3,4,5";
+		// WHEN
+		int result = calcul.add(str);
+		// THEN
+		assertEquals(15, result);
+	}
 
 }
